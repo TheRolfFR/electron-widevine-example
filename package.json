@@ -1,22 +1,15 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-widevine-example",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Castlabs Electron application example supporting DRM",
   "main": "main.js",
+  "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "node_modules\\electron\\dist\\electron.exe ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/TheRolfFR/electron-widevine-example",
+  "author": "TheRolfFR",
   "devDependencies": {
-    "electron": "^3.0.7"
+    "electron": "https://github.com/castlabs/electron-releases#v4.0.0-wvvmp-beta.7"
   }
 }
